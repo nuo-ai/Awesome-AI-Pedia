@@ -26,7 +26,9 @@ export default defineConfig({
     '*.lock',
     'package.json',
     'package-lock.json',
-    '*.sh'
+    '*.sh',
+    // 包含大量未闭合的标签示例（Claude 提示词原文），VitePress/Vue 解析会失败
+    'vibe design/claude design/claude design 提示词.md'
   ],
   
   base: '/Awesome-AI-Pedia/',
