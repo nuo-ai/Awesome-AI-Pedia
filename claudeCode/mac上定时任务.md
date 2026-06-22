@@ -1,5 +1,5 @@
 
-# 用 macOS 上设置定时任务
+# macOS 上设置定时任务
 
 用 macOS 的 launchd 直接跑 Python 脚本
 
